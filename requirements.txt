@@ -1,0 +1,31 @@
+# Python 3.11+
+
+# LlamaIndex core
+llama-index>=0.10.0
+llama-index-core>=0.10.0
+
+# LlamaIndex integrations
+llama-index-vector-stores-qdrant>=0.2.0
+llama-index-embeddings-ollama>=0.3.0
+llama-index-llms-ollama>=0.3.0
+llama-index-readers-file>=0.1.0
+
+# Vector store
+qdrant-client>=1.9.0
+
+# PDF parsing
+pymupdf>=1.24.0          # fast PDF text + metadata extraction
+pypdf>=4.0.0             # fallback PDF reader
+
+# UI
+gradio>=4.36.0
+
+# Utilities
+python-dotenv>=1.0.0     # .env file support
+tqdm>=4.66.0             # progress bars during ingestion
+tenacity>=8.2.0          # retry logic for Ollama calls
+
+# Dev / notebook
+ipykernel>=6.29.0        # Jupyter support in Codespaces
+black>=24.0.0            # formatter
+ruff>=0.4.0              # linter
