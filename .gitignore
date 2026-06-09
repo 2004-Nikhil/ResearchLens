@@ -1,0 +1,50 @@
+qdrant_storage/
+papers/
+__pycache__/
+*.pyc
+.env
+
+# Virtualenvs
+venv/
+.venv/
+env/
+ENV/
+
+# Bytecode
+*.py[cod]
+*$py.class
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Test / typecheck caches
+.pytest_cache/
+.mypy_cache/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Local DB / caches
+*.sqlite3
+*.db
+
+# Setup artifacts / model snapshots
+setup_scripts/snapshots/
+setup_scripts/.qdrant-initialized
