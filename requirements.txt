@@ -29,3 +29,4 @@ tenacity>=8.2.0          # retry logic for Ollama calls
 ipykernel>=6.29.0        # Jupyter support in Codespaces
 black>=24.0.0            # formatter
 ruff>=0.4.0              # linter
+httpx>=0.27.0              # used by app.py status sidebar
